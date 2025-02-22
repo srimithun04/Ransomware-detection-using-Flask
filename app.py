@@ -109,7 +109,6 @@ def login():
     error = None  # Initialize error message
     if request.method == 'POST':
         username = request.form['username']
-        password = request.form['password']
 
         if username in users_db and users_db[username] == password:
             session['username'] = username
@@ -147,7 +146,6 @@ def frontpage():
 @app.route('/index')
 def index():
     if 'username' not in session:
-        return redirect(url_for('login'))
     return render_template('index.html')
 
 
