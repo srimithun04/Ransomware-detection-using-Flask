@@ -128,7 +128,7 @@ project_directory/
 - **Chatbot Optimization**: Improve context retention for better interaction.
 - **UI Enhancements**: Use a modern frontend framework for improved aesthetics.
 
----
+"I HAVE NOT GIVEN THE CSS FILES.MAIL MEIF YOU WANT ALL THE CSS FILES"
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
